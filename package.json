@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
-    "@sap/cds-dk": "^7.8.1",
+    "@sap/cds-dk": "^7.9.2",
     "@sap/ux-specification": "^1.120.6",
     "axios": "^1.6.8",
     "chai": "^4.4.1",
@@ -26,7 +26,8 @@
     "test": "jest tests/test.js",
     "start": "cds-serve",
     "cds-build": "npm install --include=dev && cds build --production",
-    "watch-incidents": "cds watch --open incidents/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-incidents": "cds watch --open incidents/webapp/index.html?sap-ui-xx-viewCache=false",
+    "cds-build": "npm install --include=dev && cds build --production"
   },
   "cds": {
     "requires": {
